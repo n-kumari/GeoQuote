@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82CA7AFEF00208E06ACF2C2D66AE530E /* Pods-GeoQuoteTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D24DB29106752A5C060A4AF1D2AB299B /* Pods-GeoQuoteTests-dummy.m */; };
+		83E22CC3F0BA262DE3D092EE0F6A5ABF /* Pods-GeoQuote-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD2A8E767776E8373183E48EAF9D1D8 /* Pods-GeoQuote-tvOSTests-dummy.m */; };
+		B0391A3618CFF1274D4C7F3078AB4B41 /* Pods-GeoQuote-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4B9B498FE58D401ADC6A780B723BD /* Pods-GeoQuote-tvOS-dummy.m */; };
+		B6743302FFF73FF1A3BF5E4A715738E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */; };
+		B68664B9D5E94F9B0F2F4E2C4DA8CBA4 /* Pods-GeoQuote-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C979EDD10C017B5E4437F6A21CDCFB0 /* Pods-GeoQuote-dummy.m */; };
+		C6AC1CE905B88FED1629372B09DA21B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */; };
+		D3700D92736E6A2C759757152742C572 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */; };
+		E4AA627B58CE0C8E19AB6D9CDD043157 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D87B0F94631A34ADFFEA9D9E1F79122 /* Pods-GeoQuoteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoQuoteTests.release.xcconfig"; sourceTree = "<group>"; };
+		0FB59FCEB0304733ECEA80BF6B7AF229 /* Pods-GeoQuote-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoQuote-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		118B68588CE1A9B5392862A33CF9C133 /* Pods-GeoQuoteTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeoQuoteTests-resources.sh"; sourceTree = "<group>"; };
+		13954D04EA457759A2324185FF0F89B1 /* libPods-GeoQuote-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-GeoQuote-tvOS.a"; path = "libPods-GeoQuote-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24B07F3AB5CD3B89EC5BEACA4FDE355C /* Pods-GeoQuote-tvOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeoQuote-tvOS-frameworks.sh"; sourceTree = "<group>"; };
+		28858337A24BB728D3EC9F88E52A27DB /* Pods-GeoQuote-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoQuote-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		371CC8A171926F7AC9E8E6275AD23C60 /* Pods-GeoQuote-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GeoQuote-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		3BE64FEB7E7FC042305D0D16F7426538 /* Pods-GeoQuote-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GeoQuote-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3C979EDD10C017B5E4437F6A21CDCFB0 /* Pods-GeoQuote-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GeoQuote-dummy.m"; sourceTree = "<group>"; };
+		3D57F735260D8AE653EDF1154F53D07C /* Pods-GeoQuote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoQuote.release.xcconfig"; sourceTree = "<group>"; };
+		44843F94205DA9BA2987522874F0167A /* Pods-GeoQuoteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoQuoteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		46E6F7BD3A1ABFA5828828E5C832F699 /* libPods-GeoQuote.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-GeoQuote.a"; path = "libPods-GeoQuote.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D1D13EC6A75440A78B9F18DA55E924 /* Pods-GeoQuote-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GeoQuote-acknowledgements.plist"; sourceTree = "<group>"; };
+		572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5D2AF2DA0180288BE963AFC914164A5B /* Pods-GeoQuote-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeoQuote-resources.sh"; sourceTree = "<group>"; };
+		654A58D5F9DADE69339042D31656AA43 /* Pods-GeoQuote-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GeoQuote-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6BDD9C561351D5F70C08EBC3207DB0B3 /* Pods-GeoQuote-tvOSTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeoQuote-tvOSTests-resources.sh"; sourceTree = "<group>"; };
+		6E0FDEA4D6026DFF856CAEF9940663E4 /* Pods-GeoQuote-tvOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeoQuote-tvOSTests-frameworks.sh"; sourceTree = "<group>"; };
+		6F88A1C8C8E2E2E110D3137BE6408ABA /* Pods-GeoQuote-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GeoQuote-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7001C389D5708BE945FBCB4CD4F764EE /* libPods-GeoQuoteTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-GeoQuoteTests.a"; path = "libPods-GeoQuoteTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71756958223E9AA52BAEDE3303D88C6E /* Pods-GeoQuote-tvOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeoQuote-tvOS-resources.sh"; sourceTree = "<group>"; };
+		7DC4B9B498FE58D401ADC6A780B723BD /* Pods-GeoQuote-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GeoQuote-tvOS-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B492721A1CA951D4A8297E3A9304609 /* Pods-GeoQuoteTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GeoQuoteTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9DD2A8E767776E8373183E48EAF9D1D8 /* Pods-GeoQuote-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GeoQuote-tvOSTests-dummy.m"; sourceTree = "<group>"; };
+		9DDA97C02525C761B798E3D444AD9B58 /* Pods-GeoQuoteTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeoQuoteTests-frameworks.sh"; sourceTree = "<group>"; };
+		A02393CBC09CD1DFF7F2054A44EB4B94 /* Pods-GeoQuote-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoQuote-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		A4C9A87F2C45D35EBC15E0168AF8CBE8 /* Pods-GeoQuote-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeoQuote-frameworks.sh"; sourceTree = "<group>"; };
+		B2B451FEDB03C5843C8779355B04D4BE /* Pods-GeoQuote-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoQuote-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		D24DB29106752A5C060A4AF1D2AB299B /* Pods-GeoQuoteTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GeoQuoteTests-dummy.m"; sourceTree = "<group>"; };
+		D47F0B82C9879BCB185E3442014E4D41 /* libPods-GeoQuote-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-GeoQuote-tvOSTests.a"; path = "libPods-GeoQuote-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDFA5DBF179BA6FD04CCBE0957CD1494 /* Pods-GeoQuote-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GeoQuote-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F39AB46D2FC7EDE4E8D38D429865B7F2 /* Pods-GeoQuote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoQuote.debug.xcconfig"; sourceTree = "<group>"; };
+		FA3FED526B0C3662AE75EF07B0017528 /* Pods-GeoQuoteTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GeoQuoteTests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		013D4707CBF1CABEEFE1F0220F0B8122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6743302FFF73FF1A3BF5E4A715738E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12CCA1E70B460B440EA7CDCA334F5251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6AC1CE905B88FED1629372B09DA21B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4458CB75BEF0CEC98FA1E9AC19BD4CFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4AA627B58CE0C8E19AB6D9CDD043157 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61015390AD4033378C861B0AE4E7AF95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3700D92736E6A2C759757152742C572 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0024903CE24D043034C5446D12DB52FB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B08112F89E24C717CF1BFB607224C119 /* Pods-GeoQuote */,
+				9652C70B2949103CB9086AF6E9AC3553 /* Pods-GeoQuote-tvOS */,
+				54208C85853522FD6013B63DF50448E2 /* Pods-GeoQuote-tvOSTests */,
+				CFCD429D4095C630E79DC1B2AAEE4568 /* Pods-GeoQuoteTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0D98D3A895C7C6CAD0F311E7F54788C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46E6F7BD3A1ABFA5828828E5C832F699 /* libPods-GeoQuote.a */,
+				13954D04EA457759A2324185FF0F89B1 /* libPods-GeoQuote-tvOS.a */,
+				D47F0B82C9879BCB185E3442014E4D41 /* libPods-GeoQuote-tvOSTests.a */,
+				7001C389D5708BE945FBCB4CD4F764EE /* libPods-GeoQuoteTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20F731AE46C73F232AF0C168DC383CF9 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		54208C85853522FD6013B63DF50448E2 /* Pods-GeoQuote-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F88A1C8C8E2E2E110D3137BE6408ABA /* Pods-GeoQuote-tvOSTests-acknowledgements.markdown */,
+				3BE64FEB7E7FC042305D0D16F7426538 /* Pods-GeoQuote-tvOSTests-acknowledgements.plist */,
+				9DD2A8E767776E8373183E48EAF9D1D8 /* Pods-GeoQuote-tvOSTests-dummy.m */,
+				6E0FDEA4D6026DFF856CAEF9940663E4 /* Pods-GeoQuote-tvOSTests-frameworks.sh */,
+				6BDD9C561351D5F70C08EBC3207DB0B3 /* Pods-GeoQuote-tvOSTests-resources.sh */,
+				28858337A24BB728D3EC9F88E52A27DB /* Pods-GeoQuote-tvOSTests.debug.xcconfig */,
+				B2B451FEDB03C5843C8779355B04D4BE /* Pods-GeoQuote-tvOSTests.release.xcconfig */,
+			);
+			name = "Pods-GeoQuote-tvOSTests";
+			path = "Target Support Files/Pods-GeoQuote-tvOSTests";
+			sourceTree = "<group>";
+		};
+		58996781A54EE964D7111D73083A18A5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A42F72DC1D780481325DD00969B19BB6 /* Frameworks */,
+				0D98D3A895C7C6CAD0F311E7F54788C3 /* Products */,
+				0024903CE24D043034C5446D12DB52FB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9652C70B2949103CB9086AF6E9AC3553 /* Pods-GeoQuote-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				EDFA5DBF179BA6FD04CCBE0957CD1494 /* Pods-GeoQuote-tvOS-acknowledgements.markdown */,
+				371CC8A171926F7AC9E8E6275AD23C60 /* Pods-GeoQuote-tvOS-acknowledgements.plist */,
+				7DC4B9B498FE58D401ADC6A780B723BD /* Pods-GeoQuote-tvOS-dummy.m */,
+				24B07F3AB5CD3B89EC5BEACA4FDE355C /* Pods-GeoQuote-tvOS-frameworks.sh */,
+				71756958223E9AA52BAEDE3303D88C6E /* Pods-GeoQuote-tvOS-resources.sh */,
+				0FB59FCEB0304733ECEA80BF6B7AF229 /* Pods-GeoQuote-tvOS.debug.xcconfig */,
+				A02393CBC09CD1DFF7F2054A44EB4B94 /* Pods-GeoQuote-tvOS.release.xcconfig */,
+			);
+			name = "Pods-GeoQuote-tvOS";
+			path = "Target Support Files/Pods-GeoQuote-tvOS";
+			sourceTree = "<group>";
+		};
+		A42F72DC1D780481325DD00969B19BB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58996781A54EE964D7111D73083A18A5 /* iOS */,
+				20F731AE46C73F232AF0C168DC383CF9 /* tvOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B08112F89E24C717CF1BFB607224C119 /* Pods-GeoQuote */ = {
+			isa = PBXGroup;
+			children = (
+				654A58D5F9DADE69339042D31656AA43 /* Pods-GeoQuote-acknowledgements.markdown */,
+				52D1D13EC6A75440A78B9F18DA55E924 /* Pods-GeoQuote-acknowledgements.plist */,
+				3C979EDD10C017B5E4437F6A21CDCFB0 /* Pods-GeoQuote-dummy.m */,
+				A4C9A87F2C45D35EBC15E0168AF8CBE8 /* Pods-GeoQuote-frameworks.sh */,
+				5D2AF2DA0180288BE963AFC914164A5B /* Pods-GeoQuote-resources.sh */,
+				F39AB46D2FC7EDE4E8D38D429865B7F2 /* Pods-GeoQuote.debug.xcconfig */,
+				3D57F735260D8AE653EDF1154F53D07C /* Pods-GeoQuote.release.xcconfig */,
+			);
+			name = "Pods-GeoQuote";
+			path = "Target Support Files/Pods-GeoQuote";
+			sourceTree = "<group>";
+		};
+		CFCD429D4095C630E79DC1B2AAEE4568 /* Pods-GeoQuoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B492721A1CA951D4A8297E3A9304609 /* Pods-GeoQuoteTests-acknowledgements.markdown */,
+				FA3FED526B0C3662AE75EF07B0017528 /* Pods-GeoQuoteTests-acknowledgements.plist */,
+				D24DB29106752A5C060A4AF1D2AB299B /* Pods-GeoQuoteTests-dummy.m */,
+				9DDA97C02525C761B798E3D444AD9B58 /* Pods-GeoQuoteTests-frameworks.sh */,
+				118B68588CE1A9B5392862A33CF9C133 /* Pods-GeoQuoteTests-resources.sh */,
+				44843F94205DA9BA2987522874F0167A /* Pods-GeoQuoteTests.debug.xcconfig */,
+				0D87B0F94631A34ADFFEA9D9E1F79122 /* Pods-GeoQuoteTests.release.xcconfig */,
+			);
+			name = "Pods-GeoQuoteTests";
+			path = "Target Support Files/Pods-GeoQuoteTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6163811C5D7B1DC086C62A7B6CC67A90 /* Pods-GeoQuote-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0975173EA6E72D1136C476E9DFCDD008 /* Build configuration list for PBXNativeTarget "Pods-GeoQuote-tvOSTests" */;
+			buildPhases = (
+				21B8F0DB30FCFA511B2532BC1B5CDF41 /* Sources */,
+				12CCA1E70B460B440EA7CDCA334F5251 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GeoQuote-tvOSTests";
+			productName = "Pods-GeoQuote-tvOSTests";
+			productReference = D47F0B82C9879BCB185E3442014E4D41 /* libPods-GeoQuote-tvOSTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6CF90EA6DC1BFADAF51AF32CF0E9C815 /* Pods-GeoQuoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B4C0BACECB16A690186AA9D720BF9CC /* Build configuration list for PBXNativeTarget "Pods-GeoQuoteTests" */;
+			buildPhases = (
+				002A074513459198A918E28096B64A0B /* Sources */,
+				4458CB75BEF0CEC98FA1E9AC19BD4CFB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GeoQuoteTests";
+			productName = "Pods-GeoQuoteTests";
+			productReference = 7001C389D5708BE945FBCB4CD4F764EE /* libPods-GeoQuoteTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7002EBCBA394F825B17BAF8F87CF9E6E /* Pods-GeoQuote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F80EC9E5C733281328A573864281FA6 /* Build configuration list for PBXNativeTarget "Pods-GeoQuote" */;
+			buildPhases = (
+				41E798858A89BC0811464B6C277F12FA /* Sources */,
+				61015390AD4033378C861B0AE4E7AF95 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GeoQuote";
+			productName = "Pods-GeoQuote";
+			productReference = 46E6F7BD3A1ABFA5828828E5C832F699 /* libPods-GeoQuote.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A689BC77E7B17F6B1BEE0998A7A9485D /* Pods-GeoQuote-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3D15CA4F812B1D0C4DD20E20C98045F /* Build configuration list for PBXNativeTarget "Pods-GeoQuote-tvOS" */;
+			buildPhases = (
+				C781692BF1BAF9E795701C8E29C39250 /* Sources */,
+				013D4707CBF1CABEEFE1F0220F0B8122 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GeoQuote-tvOS";
+			productName = "Pods-GeoQuote-tvOS";
+			productReference = 13954D04EA457759A2324185FF0F89B1 /* libPods-GeoQuote-tvOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0D98D3A895C7C6CAD0F311E7F54788C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7002EBCBA394F825B17BAF8F87CF9E6E /* Pods-GeoQuote */,
+				A689BC77E7B17F6B1BEE0998A7A9485D /* Pods-GeoQuote-tvOS */,
+				6163811C5D7B1DC086C62A7B6CC67A90 /* Pods-GeoQuote-tvOSTests */,
+				6CF90EA6DC1BFADAF51AF32CF0E9C815 /* Pods-GeoQuoteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		002A074513459198A918E28096B64A0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CA7AFEF00208E06ACF2C2D66AE530E /* Pods-GeoQuoteTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21B8F0DB30FCFA511B2532BC1B5CDF41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E22CC3F0BA262DE3D092EE0F6A5ABF /* Pods-GeoQuote-tvOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E798858A89BC0811464B6C277F12FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68664B9D5E94F9B0F2F4E2C4DA8CBA4 /* Pods-GeoQuote-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C781692BF1BAF9E795701C8E29C39250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0391A3618CFF1274D4C7F3078AB4B41 /* Pods-GeoQuote-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1A15F2823E31A3210FE31A7B90D32B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		39A485195E3407E8392BFC081CE8530B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		4F7F8D0FF1F09398FCDFB1DD9B4D7BF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28858337A24BB728D3EC9F88E52A27DB /* Pods-GeoQuote-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		56CAD4DE9B69226A91D64B3577D8160C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F39AB46D2FC7EDE4E8D38D429865B7F2 /* Pods-GeoQuote.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67F5B9E050FA479A715EC86476DA0FFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FB59FCEB0304733ECEA80BF6B7AF229 /* Pods-GeoQuote-tvOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		7B7524166F6D321D2F4B1922BD3CADDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2B451FEDB03C5843C8779355B04D4BE /* Pods-GeoQuote-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C75794FFE4DBB71C25FC78197A70848B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44843F94205DA9BA2987522874F0167A /* Pods-GeoQuoteTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C95A4A9A36D4ECBB0831EFB2A39AA44A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D87B0F94631A34ADFFEA9D9E1F79122 /* Pods-GeoQuoteTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E52CD7F08726B725EB3D92FD2E9DD03E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A02393CBC09CD1DFF7F2054A44EB4B94 /* Pods-GeoQuote-tvOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7BA9452082AA736CEAF60B90CE01F44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D57F735260D8AE653EDF1154F53D07C /* Pods-GeoQuote.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0975173EA6E72D1136C476E9DFCDD008 /* Build configuration list for PBXNativeTarget "Pods-GeoQuote-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F7F8D0FF1F09398FCDFB1DD9B4D7BF9 /* Debug */,
+				7B7524166F6D321D2F4B1922BD3CADDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A15F2823E31A3210FE31A7B90D32B8F /* Debug */,
+				39A485195E3407E8392BFC081CE8530B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F80EC9E5C733281328A573864281FA6 /* Build configuration list for PBXNativeTarget "Pods-GeoQuote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56CAD4DE9B69226A91D64B3577D8160C /* Debug */,
+				E7BA9452082AA736CEAF60B90CE01F44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B4C0BACECB16A690186AA9D720BF9CC /* Build configuration list for PBXNativeTarget "Pods-GeoQuoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75794FFE4DBB71C25FC78197A70848B /* Debug */,
+				C95A4A9A36D4ECBB0831EFB2A39AA44A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3D15CA4F812B1D0C4DD20E20C98045F /* Build configuration list for PBXNativeTarget "Pods-GeoQuote-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67F5B9E050FA479A715EC86476DA0FFA /* Debug */,
+				E52CD7F08726B725EB3D92FD2E9DD03E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
